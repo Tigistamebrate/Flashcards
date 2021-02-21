@@ -5,7 +5,7 @@
 ### App Description
 This app can be used to tap through a question and see the answer for it.
 
-### App Walk-though
+### App Walk-through
 <img src="https://media.giphy.com/media/CkL1ZPvW8QDMKZjk6a/source.gif" width=200><br>
 
 ## Required
