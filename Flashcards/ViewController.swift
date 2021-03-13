@@ -16,9 +16,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        
+        let creationController = navigationController.topViewController as! CreationViewoControllerViewController
+        
+        creationController.flashcardsController = self
+    }
+    
     @IBAction func didTapOnFlashcard(_ sender: Any) {
         questionlabel.isHidden=true
+    }
+    
+    func updateFlashcard(question: String, answer: String){
+        questionlabel.text = question
+        answerlabel.text = answer
     }
 }
 

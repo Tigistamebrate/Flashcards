@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0B8953625FC902300E9E051 /* CreationViewoControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8953525FC902300E9E051 /* CreationViewoControllerViewController.swift */; };
 		C0FE67DD25E1958700EFF89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE67DC25E1958700EFF89A /* AppDelegate.swift */; };
 		C0FE67DF25E1958700EFF89A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE67DE25E1958700EFF89A /* SceneDelegate.swift */; };
 		C0FE67E125E1958700EFF89A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE67E025E1958700EFF89A /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0B8953525FC902300E9E051 /* CreationViewoControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewoControllerViewController.swift; sourceTree = "<group>"; };
 		C0FE67D925E1958700EFF89A /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FE67DC25E1958700EFF89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0FE67DE25E1958700EFF89A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				C0FE67DE25E1958700EFF89A /* SceneDelegate.swift */,
 				C0FE67E025E1958700EFF89A /* ViewController.swift */,
 				C0FE67E225E1958700EFF89A /* Main.storyboard */,
+				C0B8953525FC902300E9E051 /* CreationViewoControllerViewController.swift */,
 				C0FE67E825E1958A00EFF89A /* Assets.xcassets */,
 				C0FE67EA25E1958A00EFF89A /* LaunchScreen.storyboard */,
 				C0FE67ED25E1958A00EFF89A /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B8953625FC902300E9E051 /* CreationViewoControllerViewController.swift in Sources */,
 				C0FE67E125E1958700EFF89A /* ViewController.swift in Sources */,
 				C0FE67DD25E1958700EFF89A /* AppDelegate.swift in Sources */,
 				C0FE67E725E1958700EFF89A /* Flashcards.xcdatamodeld in Sources */,
