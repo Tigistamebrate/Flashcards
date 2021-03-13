@@ -26,8 +26,8 @@ This app lets you create a new set of question and answer. It will also display 
 ### App Description
 This app can be used to tap through a question and see the answer for it.
 
-### App Walk-though
-<img src="https://giphy.com/embed/CkL1ZPvW8QDMKZjk6a" width=200><br>
+### App Walk-through
+<img src="https://media.giphy.com/media/CkL1ZPvW8QDMKZjk6a/source.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
