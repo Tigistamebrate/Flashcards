@@ -7,7 +7,7 @@ This app lets you create a new set of question and answer. It will also display 
 
 ### App Walk-though
 
-<img src="https://submissions.us-east-1.linodeobjects.com/mobile_app_design/-3WmTubB.gif" width=200><br>
+<img src="https://github.com/Tigistamebrate/Flashcards/raw/main/flashcardw2.gif" width=200><br>
 
 
 ## Required
