@@ -16,7 +16,6 @@ App allows to browse through multiple flashcards
 - [ ] User can delete a flashcard
 - [ ] User can edit existing flashcard
 - [ ] User can store multiple choice questions
-- [ ] 
 ## Lab 2
 
 ### App Description
