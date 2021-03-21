@@ -6,7 +6,7 @@
 App allows to browse through multiple flashcards
 
 ### App Walk-though
-<img src="https://github.com/Tigistamebrate/Flashcards/blob/main/flashcardw7.gif" width=200><br>
+<img src= "https://github.com/Tigistamebrate/Flashcards/blob/main/flashcardlab3.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
