@@ -31,7 +31,6 @@ class ViewController: UIViewController {
         } else {
             updateLabels()
             updateNextPrevButtons()
-            
         }
             }
 
@@ -43,7 +42,6 @@ class ViewController: UIViewController {
         creationController.flashcardsController = self
     }
     
-    
     @IBOutlet weak var nextButton: UIButton!
     
     @IBOutlet weak var prevButton: UIButton!
@@ -54,7 +52,7 @@ class ViewController: UIViewController {
         
         if currentIndex == 0 {
             prevButton.isEnabled = false
-            print("If statement works")
+           // print("If statement works")
         } else {
             prevButton.isEnabled = true
         }
