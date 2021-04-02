@@ -5,8 +5,8 @@
 ### App Description
 App allows to browse through multiple flashcards with animation and styling
 
-### App Walk-though
-<img src="https://github.com/Tigistamebrate/Flashcards/blob/main/lab4.gif" width=800 height= 450><br>
+### App Walk-through
+<img src="https://github.com/Tigistamebrate/Flashcards/blob/main/lab4.gif" width=650 height= 450><br>
 
 ## Required
 - [x] User should see the app icon 
@@ -26,7 +26,7 @@ App allows to browse through multiple flashcards with animation and styling
 ### App Description
 App allows to browse through multiple flashcards
 
-### App Walk-though
+### App Walk-through
 <img src= "https://github.com/Tigistamebrate/Flashcards/blob/main/lab3.gif" width=800 height= 450><br>
 
 ## Required
@@ -45,7 +45,7 @@ App allows to browse through multiple flashcards
 ### App Description
 This app lets you create a new set of question and answer. It will also display it on a different screen and updates everytime they click on the plus sign.
 
-### App Walk-though
+### App Walk-through
 
 <img src="https://github.com/Tigistamebrate/Flashcards/blob/main/flashcardw4.gif" width=200><br>
 
