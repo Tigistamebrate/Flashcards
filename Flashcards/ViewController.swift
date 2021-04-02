@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         creationController.flashcardsController = self
     }
     
+    @IBOutlet weak var card: UIView!
+    
     @IBOutlet weak var nextButton: UIButton!
     
     @IBOutlet weak var prevButton: UIButton!
@@ -68,20 +70,60 @@ class ViewController: UIViewController {
     
     @IBAction func didTapOnPrev(_ sender: Any) {
         currentIndex = currentIndex - 1
-        updateLabels()
         updateNextPrevButtons()
+        animateCardOut2()
     }
     
     @IBAction func didTapOnNext(_ sender: Any) {
         currentIndex = currentIndex + 1
-        updateLabels()
         updateNextPrevButtons()
+        animateCardOut()
     }
     
     @IBAction func didTapOnFlashcard(_ sender: Any) {
-        questionlabel.isHidden=true
+        UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight) {
+            self.questionlabel.isHidden = true
+        }
+
+       flipflashcard()
+    }
+    func flipflashcard(){
+        questionlabel.isHidden = true
     }
     
+    func animateCardOut(){
+        UIView.animate(withDuration: 0.3) {
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 0.0)
+        } completion: { finished in
+            
+            self.updateLabels()
+            self.animateCardIn()
+        }
+
+    }
+    
+    func animateCardOut2(){
+        UIView.animate(withDuration: 0.3) {
+            self.card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        } completion: { finished in
+            
+            self.updateLabels()
+            self.animateCardIn2()
+        }
+
+    }
+    func animateCardIn(){
+        card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        UIView.animate(withDuration: 0.3) {
+            self.card.transform = CGAffineTransform.identity
+        }
+    }
+    func animateCardIn2(){
+        card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 0.0)
+        UIView.animate(withDuration: 0.3) {
+            self.card.transform = CGAffineTransform.identity
+        }
+    }
     func updateFlashcard(question: String, answer: String){
         let flashcard = Flashcard(question: question, answer: answer)
         // Adding flashcard in the flashcards Array
